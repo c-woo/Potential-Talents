@@ -20,9 +20,11 @@ I use a RankNet neural network model that is able to learn to rank the candidate
 Query Used: 'seeking human resources'
 
 **Fit score for word embeddings**
+___
 <img src="https://i.imgur.com/oXHwya8.jpg">
 
 **Ranknet model**
+___
 <img src="https://i.imgur.com/9Sqyf98.jpg">
 
 
