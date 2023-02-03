@@ -16,7 +16,7 @@ I use a RankNet neural network model that is able to learn to rank the candidate
 * BERT
 * GloVe
 
-## Example of Data
+## Example of Model
 Query Used: 'seeking human resources'
 
 <img src="https://i.imgur.com/oXHwya8.jpg">
