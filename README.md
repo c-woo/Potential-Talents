@@ -1,23 +1,20 @@
 # Potential Talents
 
-In order to help a talent sourcing company more easily sort through potential candidates to provide to technology companies, I will be creating a learning to rank model for their candidate list. I will be ranking potential job candidates based on a query and return a list of candidates that best fit the query. Once ranked, I will be implementing a model that will be able to rerank the list based on ideal candidates that are manually picked based on how well they fit the job description. 
-
+I will be attempting to rank potential job candidates based on a query and return a list of candidates that best fit the query. Once ranked I will be re-ranking candidates based on ideal candidates from the first list. 
 I use a RankNet neural network model that is able to learn to rank the candidates and update it's ranking based on ideal candidates.
 
 ## Data Description
-> **Id:** Unique identifier for candidate  
-> **Job_title:** Job title for candidate  
-> **Location:** Geographical location for candidate   
-> **Connections:** Number of connections candidate has  
-> **Fit:** How fit the candidate is for the role (numeric between 0-1)
+**Id:** Unique identifier for candidate  
+**Job_title:** Job title for candidate  
+**Location:** Geographical location for candidate   
+**Connections:** Number of connections candidate has  
+**Fit:** How fit the candidate is for the role (numeric between 0-1)
 
 ## Word Embeddings Used
 * TF-IDF
 * Word2Vec
 * BERT
 * GloVe
-
-Word2Vec provided the best fit for the queries used to search for candidates.
 
 ## Example of Data
 Query Used: 'seeking human resources'
